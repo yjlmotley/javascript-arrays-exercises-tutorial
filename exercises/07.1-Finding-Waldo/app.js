@@ -4,6 +4,6 @@ let people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darne
 for(let i = 0; i < people.length; i++) {
     // let lowerCaseName = people[i].toLowerCase();
     if (people[i].toLowerCase() == "waldo") {
-        console.log(people[i]);
+        console.log(i);
     }
 }
